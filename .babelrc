@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        /**
+         * @see https://browserl.ist to find the list of supported browsers
+         */
+        "targets": {
+          "browsers": ["> .5%"]
+        },
+        "loose": true,
+        "modules": false,
+        "debug": false
+      }
+    ]
+  ],
+
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}
