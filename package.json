@@ -32,7 +32,7 @@
     "file-loader": "2.0.0",
     "i18next": "10.2.1",
     "i18next-xhr-backend": "1.5.1",
-    "jquery": "2.2.3",
+    "jquery": "3.5.0",
     "less": "3.9.0",
     "less-loader": "4.1.0",
     "moment": "2.22.0",
